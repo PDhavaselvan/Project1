@@ -1,0 +1,93 @@
+/*------------------Header--------------------------*/
+.header
+{
+    background-color: white;
+    box-shadow: 2px solid black;
+    
+}
+.sticky-top {
+    position: sticky;
+    z-index: 1020;
+    top: 0;
+}
+#logo
+{
+    width: 150px;
+    height: inherit;
+    justify-items: left;
+}
+.btn
+{
+    
+    
+background-image: linear-gradient(to top , #ad00ff ,#6c54ff); /* Adjust colors as needed */
+color: white; /* Text color */
+width: 144px;
+padding: 10px 10px;
+border: none;
+border-radius: 28px;
+cursor: pointer;
+
+}
+
+/*------------------Home--------------------------*/
+#start_btn
+{
+text-align:left;    
+background-image: linear-gradient(to top, #ad00ff ,#6c54ff); /* Adjust colors as needed */
+color: white; /* Text color */
+width: 231px;
+padding: 10px 10px;
+border: none;
+border-radius: 28px;
+cursor: pointer;
+
+}
+/*----------------------ICON-------------*/
+#Icon
+{       
+    justify-content: space-between;
+    width:30px;
+    height:24px; 
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+    padding: 15px;
+    
+      
+}
+
+#Himg
+{
+    justify-items: center;
+    max-width: 100%;
+    height: auto;
+       
+}
+/*-------------------------------------*/
+h3
+{
+    margin: 100px;
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    .nav h3 {
+      margin: 20px; /* Adjust the margin as needed for smaller screens */
+    }
+  }
+
+/*-----------Card------*/
+
+
+.Card.img
+{
+    width: 300px;
+    height: 200px;
+}
+
+#cd
+{
+    color: white;
+    background-color: red;
+}
